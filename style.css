@@ -14,16 +14,23 @@
     align-items: center;
 
 }
+.container1{
+    display: flex;
+}
+.image{
+    margin-left: 300px;
+    border-radius: 20px;
+}
 .name{
     font-size: 30;
     font-family: sans-serif;
+    margin-top: 20px;
 }
 .margin{
     margin: 20px;
 }
 .about{
-    margin-left: 170px;
-    margin-top: 10px;
+    margin-left: 135px;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -33,4 +40,13 @@
 .skills{
     margin-top: 100px;
     margin-left: 90px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: silver;
+    border-radius: 10px;
 }
