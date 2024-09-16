@@ -1,33 +1,41 @@
 *{
-    background-color:black;
-    color: white;
+    background-color:white;
+    color: black;
 
 }
 .header{
     display: flex;
     justify-content: space-around;
     align-items: left;
+    background-color: violet;
 }
 .contents{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 300px;
+    background-color: violet;
 
 }
 .container1{
     display: flex;
+    margin-bottom: 350px;
 }
 .image{
-    margin-left: 300px;
+    margin-left: 100px;
     border-radius: 20px;
+    /* margin-top: 7px; */
 }
 .name{
     font-size: 30;
     font-family: sans-serif;
     margin-top: 20px;
+    margin-left: 100px;
+    background-color: violet;
 }
 .margin{
     margin: 20px;
+    background-color: violet;
 }
 .about{
     margin-left: 135px;
@@ -41,12 +49,37 @@
     margin-top: 100px;
     margin-left: 90px;
     font-size: 20px;
+    height: 400px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a{
     text-decoration: none;
 }
-a:hover{
-    background-color: silver;
-    border-radius: 10px;
+
+.contact{
+    /* margin-top: 560px; */
+    margin-left: 90px;
+    font-size: 20px;
+    height: 400px;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.class1{
+    margin-top: 100px;
+    
+}
+.projects{
+    margin-left: 90px;
+    font-size: 20px;
+    height: 600px;
+}
+.bold{
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.break{
+    height: 5px;
+    background-color:grey;
+    width: 1420px;
 }
