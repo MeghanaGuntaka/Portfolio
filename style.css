@@ -1,46 +1,55 @@
 *{
-    background-color:white;
+    background-color:aliceblue;
     color: black;
 
+}
+body {
+    height: 100%;
+    background-color: black;
 }
 .header{
     display: flex;
     justify-content: space-around;
     align-items: left;
-    background-color: violet;
+    margin-top: 0px;
+    text-shadow: 5px 5px 10px 10px red;
 }
 .contents{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 300px;
-    background-color: violet;
 
 }
 .container1{
     display: flex;
-    margin-bottom: 350px;
+    margin-bottom: 220px;
+    background-color:aliceblue;
+    background-color:aliceblue;
 }
 .image{
     margin-left: 100px;
     border-radius: 20px;
     /* margin-top: 7px; */
 }
+div header:hover{
+    box-shadow: 5px 5px 10px 10px red;
+    text-shadow: 5px 5px 10px 10px red;;
+}
 .name{
     font-size: 30;
     font-family: sans-serif;
     margin-top: 20px;
     margin-left: 100px;
-    background-color: violet;
 }
 .margin{
     margin: 20px;
-    background-color: violet;
 }
 .about{
     margin-left: 135px;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:aliceblue;
 }
 .scroll{
     margin: 30px;
@@ -54,6 +63,7 @@
 }
 a{
     text-decoration: none;
+    color: black;
 }
 
 .contact{
@@ -76,10 +86,15 @@ a{
 .bold{
     font-family:sans-serif;
     font-weight: bold;
+    background-color:aliceblue;
 }
 
 .break{
     height: 5px;
     background-color:grey;
     width: 1420px;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }
