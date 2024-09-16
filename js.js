@@ -46,7 +46,7 @@ window.onload = function() {
         var period = elements[i].getAttribute('data-period');
         if (toRotate) {
           new TxtType(elements[i], JSON.parse(toRotate), period);
-        }
+        }      
     }
     // INJECT CSS
     var css = document.createElement("style");
