@@ -13,6 +13,7 @@ body {
     align-items: left;
     margin-top: 0px;
     text-shadow: 5px 5px 10px 10px red;
+    background-color: rgb(221, 236, 250);;
 }
 .contents{
     display: flex;
