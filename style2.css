@@ -8,10 +8,12 @@ body{
     background: #2e364a;
 }
 .proj{
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
+    font-size: 70px;
 }
 .timeline{
     position: relative;
@@ -21,7 +23,7 @@ body{
     
 }
 .container{
-    padding: 5px 20px;
+    padding: 0px 0px;
     position: relative;
     width: 300px;
     animation: movedown 1s linear forwards;
@@ -41,8 +43,8 @@ body{
 }
 .textbox{
     width: 500px;
-    height: 200px;
-    padding: 20px 30px;
+    height: 250px;
+    padding: 30px 40px;
     background: #ffff;
     position: relative;
     border-radius: 6px;
@@ -50,21 +52,22 @@ body{
     background: white;
 }
 .left{
-    left: 20%;
+    left: 25%;
 }
 .right{
     left: 100%;
 }
-.timeline:: after{
-    content: '';
+.timeline::after{
+    content:' ';
     position: absolute;
     width: 6px;
     height: 100px;
     background: black;
+    background-color: black;
     top: 0;
     left: 50%;
-    margin-left: -300px;
-    margin-right: -4px;
+    margin-left: -3px;
+    /* margin-right: -4px; */
     z-index: -1;
     animation: moveline 6s linear forwards;
 }
@@ -74,14 +77,14 @@ body{
         height: 0;
     }
     100%{
-        height 100%;
+        height:100%;
     }
 }
 .container:nth-child(1){
-    animation-delay: 0s;
+    animation-delay: 1s;
 }
 .container:nth-child2(2){
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 .container:nth-child(3){
     animation-delay: 2s;
@@ -102,9 +105,9 @@ body{
 .right img{
     left: -50px;
 }
-/* .left img{
-    right: -0px;
-} */
+.left img{
+    right: 130px;
+}
 .left-arrow{
     height: 100; 
     width: 0;
@@ -131,7 +134,7 @@ body{
     .timeline{
         margin: 50px auto;
     }
-    .timeline :: after{
+    .timeline ::after{
         left: 31px;
     }
     .container{
@@ -142,6 +145,16 @@ body{
     .textbox{
         font-size: 13px;
     }
-    .t
-    
+    .right{
+        left: 0;
+    }
+    .left img, .right img{
+        left: 10px;
+ 
+    }
+    .left-arrow, .right-arrow{
+        border-right: 15px solid white;
+        border-left: 0;
+        left: -15px;
+    }
 }
