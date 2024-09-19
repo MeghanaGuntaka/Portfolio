@@ -4,9 +4,7 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-body{
-    background: #2e364a;
-}
+
 .proj{
     margin-top: 50px;
     display: flex;
@@ -18,9 +16,7 @@ body{
 .timeline{
     position: relative;
     max-width: 700px;
-    margin: 100px auto;
-
-    
+    margin: 0px auto;   
 }
 .container{
     padding: 0px 0px;
@@ -41,6 +37,7 @@ body{
         transform:translateY(0px);
     }
 }
+
 .textbox{
     width: 500px;
     height: 250px;
@@ -53,31 +50,48 @@ body{
 }
 .left{
     left: 25%;
+
 }
 .right{
     left: 100%;
 }
-.timeline::after{
+.skills::after{
     content:' ';
     position: absolute;
     width: 6px;
-    height: 100px;
+    /* height: 100%; */
     background: black;
     background-color: black;
     top: 0;
+    bottom: 0;
     left: 50%;
     margin-left: -3px;
     /* margin-right: -4px; */
     z-index: -1;
     animation: moveline 6s linear forwards;
 }
+.timeline::after{
+    content:' ';
+    position: absolute;
+    width: 6px;
+    /* height: 100%; */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: 30px;
+    /* margin-right: -4px; */
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+    background: white;
+}
 @keyframes moveline{
     0%{
-    
-        height: 0;
+        width: 20;
+        height: 10;
     }
     100%{
-        height:100%;
+        width: 50;
+        height:100;
     }
 }
 .container:nth-child(1){

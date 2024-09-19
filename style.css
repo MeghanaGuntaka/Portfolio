@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 375px;
+    margin-left: 376px;
 
 }
 .container1{
@@ -91,7 +91,7 @@ a{
 .break{
     height: 5px;
     background-color:grey;
-    width: 1420px;
+    width: 1437px;
 }
 footer{
     display: flex;
